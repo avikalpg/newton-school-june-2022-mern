@@ -13,6 +13,7 @@ But please try your best to understand the concepts in English itself. If I expl
 
 ## Contents
 [Lecture 1: Introduction to the internet, the WWW and web pages](Lecture1/)
+[Lecture 2: Revision of WWW, HTML and introduction to tags](Lecture2/)
 
 ## Additional Resources
 

@@ -1,10 +1,19 @@
 Agenda for lecture 2:
 
+	- Revision of Internet, WWW, Resources and HTML
+
+	<questions>
+	
 	- base tags in HTML
 		- HTML
 		- head
 		- body
+
+		<questions>
+
 		- div and span
 		- p
 		- meta
+
+		<questions>
 
