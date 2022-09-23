@@ -1,0 +1,27 @@
+<class>
+	<people>
+		<instructor>
+			<firstname>Avikalp</firstname>
+			<lastname>Gupta</lastname>
+			<gender>Male</gender>
+		</instructor>
+		<student>
+			<firstname>John</firstname>
+			<lastname>Doe</lastname>
+			<gender>Male</gender>
+		</student>
+		<student>
+			<firstname>Alex</firstname>
+			<lastname>Ferguson</lastname>
+			<gender>Male</gender>
+		</student>
+		<student>
+			<firstname>Rebecca</firstname>
+			<lastname>Thomson</lastname>
+			<gender>Female</gender>
+		</student>
+		<student></student>
+		<student></student>
+		<student></student>
+	</people>
+</class>

@@ -1,0 +1,10 @@
+Agenda for lecture 2:
+
+	- base tags in HTML
+		- HTML
+		- head
+		- body
+		- div and span
+		- p
+		- meta
+
