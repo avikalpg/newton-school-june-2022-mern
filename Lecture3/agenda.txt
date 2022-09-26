@@ -1,0 +1,9 @@
+1. HTML base tags
+	- div and span
+	- p tag
+	- meta tags
+	
+
+Homework:
+	- Inspect element on every website you come across
+	- Look at the meta tags that they use and search the meaning of each of the meta tags
