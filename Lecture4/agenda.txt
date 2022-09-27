@@ -1,0 +1,22 @@
+1. Meta tag
+	- Revision
+	- Viewport
+
+2. Layout
+	- Header
+	- Nav
+	- Section
+	- Aside
+	- Footer
+
+3. Lists
+	- Ordered lists
+	- Unordered lists
+	- Description lists
+	- types
+
+Homework:
+	Yesterday:
+		1. Look at the meta tags of 5 website and try to understand what they do
+	Today:
+		1. From the documentation, learn the different attributes of OL, UL and DL

@@ -14,6 +14,8 @@ But please try your best to understand the concepts in English itself. If I expl
 ## Contents
 1. [Lecture 1: Introduction to the internet, the WWW and web pages](Lecture1/)
 2. [Lecture 2: Revision of WWW, HTML and introduction to tags](Lecture2/)
+2. [Lecture 3: DIV, SPAN, P and META tags](Lecture3/)
+2. [Lecture 4: META Viewport, Layout tags and HTML Lists](Lecture4/)
 
 ## Additional Resources
 
