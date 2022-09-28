@@ -1,0 +1,8 @@
+
+1. Media
+	- images
+	- audio
+	- video
+	- iframe
+
+2. In-class assignment
