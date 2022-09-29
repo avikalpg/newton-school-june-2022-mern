@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>HTML Tables and attributes</title>
+	<link rel="stylesheet" href="index.css" />
+	<style>
+		table {
+			color: blue;
+		}
+
+		th[scope="row"] {
+			color: brown;
+		}
+
+		tbody {
+			background-color: bisque;
+		}
+	</style>
+	<script>
+		document.onreadystatechange = function () {
+			if (this.readyState === "complete") {
+				document.getElementById('gaurav-name').innerHTML = "Gaurav Laddha";
+			}
+		}
+	</script>
+	<script src="index.js"></script>
+</head>
+
+<body>
+	<a id="google-anchor" href="https://google.com" title="google">Google</a>
+	<table border="2px" style="border: solid; background-color: aqua;">
+		<caption>All students in the class</caption>
+		<thead>
+			<th scope="col">Roll No</th>
+			<th scope="col" title="Name of the student">Name</th>
+			<th scope="col">Phone No.</th>
+			<th scope="col">Class</th>
+			<th scope="col">Section</th>
+		</thead>
+		<tbody>
+			<tr class="special-row">
+				<td>1</td>
+				<td>Ajay Bhise</td>
+				<td>9998877766</td>
+				<td colspan="2">7A</td>
+			</tr>
+			<tr>
+				<td>2</td>
+				<td>Avikalp Gupta</td>
+				<td>9998877766</td>
+				<td>7</td>
+				<td>B</td>
+			</tr>
+			<tr class="special-row">
+				<td>3</td>
+				<td>Dhananjay Kumar</td>
+				<td rowspan="3">9998877766</td>
+				<td>7</td>
+				<td>C</td>
+			</tr>
+			<tr>
+				<td>4</td>
+				<td id="gaurav-name">Gaurav Verma</td>
+				<td rowspan="2" colspan="2">7B</td>
+			</tr>
+			<tr>
+				<td>5</td>
+				<td>Hitesh Saini</td>
+			</tr>
+			<tr>
+				<td>8</td>
+				<td>Ibadat Jain</td>
+				<td>9998877769</td>
+				<td>7</td>
+				<td>C</td>
+			</tr>
+		</tbody>
+		<caption>All students in the my class</caption>
+		<tfoot>
+			<td>82</td>
+			<td>Alif Laila</td>
+			<td>6549873211</td>
+			<td>8</td>
+			<td>A</td>
+		</tfoot>
+	</table>
+
+	<table border="true">
+		<tr>
+			<th scope="row">First Name</th>
+			<td>Avikalp</td>
+		</tr>
+		<tr>
+			<th scope="row">Last Name</th>
+			<td>Gupta</td>
+		</tr>
+		<tr>
+			<th scope="row">Years of experience</th>
+			<td>6</td>
+		</tr>
+		<caption>Author info</caption>
+	</table>
+
+
+</body>
+
+</html>

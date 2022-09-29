@@ -17,6 +17,7 @@ But please try your best to understand the concepts in English itself. If I expl
 2. [Lecture 3: DIV, SPAN, P and META tags](Lecture3/)
 2. [Lecture 4: META Viewport, Layout tags and HTML Lists](Lecture4/)
 2. [Lecture 5: Media (img, audio, video and iframe) and Anchor tags](Lecture5/)
+2. [Lecture 5: HTML Tables, attributes and adding CSS & JS to HTML files](Lecture6/)
 
 ## Additional Resources
 
