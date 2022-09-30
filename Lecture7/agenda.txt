@@ -1,0 +1,13 @@
+1. Attributes
+	- href
+	- src
+	- id
+	- class
+	- style
+	- title
+
+2. Styling in HTML
+
+3. Dynamicity in HTML 
+
+4. HTML Forms
