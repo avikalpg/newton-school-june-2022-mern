@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>HTML Forms</title>
+</head>
+
+<body>
+	<form action="" method="post">
+		<div>
+			<label for="first-name">First Name</label>
+			<input name="fname" type="text" id="first-name" required minlength="2" maxlength="50" placeholder="John">
+		</div>
+		<div>
+			<label for="roll-no">Roll number</label>
+			<input name="roll" type="number" id="roll-no" min="-10" max="100" placeholder="6" value="3">
+		</div>
+		<div>
+			<label for="dob">Date of birth</label>
+			<input type="date" name="dob" id="dob" />
+		</div>
+		<div>
+			<label for="pass">Password</label>
+			<input name="password" type="password" id="pass" required>
+		</div>
+		<div>
+			<label for="email">Email ID</label>
+			<input name="email" type="email" id="email" required placeholder="john@example.com">
+		</div>
+		<div>
+			<label for="tel-num">Telephone number</label>
+			<input name="phone_num" type="tel" id="tel-num" pattern="[0-9]{10}">
+		</div>
+		<div>
+			<label for="user-bio">Enter your bio</label>
+			<textarea cols="40" rows="10" name="bio" id="user-bio"></textarea>
+		</div>
+		<div>
+			<input name="role" type="radio" value="Student" id="student-role">
+			<label for="student-role">Student</label>
+			<input name="role" type="radio" value="Teacher" id="teacher-role">
+			<label for="teacher-role">Teacher</label>
+		</div>
+		<div>
+			<input name="enrolled" type="checkbox" id="enrolled" value="enroll" />
+			<label for="enrolled">Are you enrolled with Newton School?</label>
+
+			<input name="enrolled" type="checkbox" id="enrolled-1" value="user" />
+			<label for="enrolled-1">Have you created a user?</label>
+
+			<input name="enrolled" type="checkbox" id="enrolled-2" value="fee" />
+			<label for="enrolled-2">Have you submitted your fee?</label>
+		</div>
+		<div>
+			<label for="gender">Gender</label>
+			<select id="gender" name="user-gender">
+				<option value="M">Male</option>
+				<option value="F">Female</option>
+			</select>
+		</div>
+		<div>
+			<input type="reset" value="Reset the form" />
+			<input type="submit" value="Submit Form" />
+		</div>
+	</form>
+</body>
+
+</html>

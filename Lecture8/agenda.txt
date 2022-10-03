@@ -1,0 +1,30 @@
+1. HTML Forms 
+	- Revision
+		Action, method
+
+	- Labels
+
+	- Input types
+		- text
+		- reset
+		- submit 
+		- number
+		- password
+		- email
+		- tel
+		- radio
+		- checkbox
+		- select and Options
+			- optgroup
+
+	- Attributes
+		- id, for 
+		- name
+		- value
+		- required
+		- placeholder
+		- maxlength, minlength
+		
+
+Homework:
+	- explore all the different input types in HTML Forms
