@@ -20,6 +20,7 @@ But please try your best to understand the concepts in English itself. If I expl
 2. [Lecture 6: HTML Tables, attributes and adding CSS & JS to HTML files](Lecture6/)
 2. [Lecture 7: Attributes and adding CSS & JS to HTML files + Intro to Forms](Lecture7/)
 2. [Lecture 8: HTML Forms](Lecture8/)
+2. [Lecture 9: CSS Introduction, basic selectors and combinators](Lecture9/)
 
 ## Additional Resources
 
