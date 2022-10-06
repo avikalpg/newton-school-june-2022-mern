@@ -21,6 +21,7 @@ But please try your best to understand the concepts in English itself. If I expl
 2. [Lecture 7: Attributes and adding CSS & JS to HTML files + Intro to Forms](Lecture7/)
 2. [Lecture 8: HTML Forms](Lecture8/)
 2. [Lecture 9: CSS Introduction, basic selectors and combinators](Lecture9/)
+2. [Lecture 10: CSS pseudo-classes and pseudo-elements](Lecture10/)
 
 ## Additional Resources
 

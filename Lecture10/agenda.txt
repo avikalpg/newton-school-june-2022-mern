@@ -1,3 +1,25 @@
 1. CSS selectors
 	- In-class assignments from last time's topics
 	
+2. CSS selectors (continued)
+	- pseudo classes
+		:active
+		:focus
+		:hover
+		:link
+		:visited
+		:is
+		:first-child 
+		:first-of-type
+		:nth-child()
+	- pseudo elements
+		::before
+		::after
+	- selector-attributes
+		- attributes 
+		- attribute values
+		- patterns
+
+3. CSS styling
+	- Colors (background-color & text color)
+	- CSS backgrounds

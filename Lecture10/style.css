@@ -1,0 +1,75 @@
+div.mydiv:active {
+	font-weight: bold;
+}
+
+a:focus {
+	background-color: aquamarine;
+}
+
+button:focus {
+	color: aqua;
+}
+
+p:hover {
+	background-color: grey;
+}
+
+ol:hover {
+	background-color: yellow;
+}
+
+li:hover {
+	color: red;
+}
+
+a:link {
+	color: greenyellow
+}
+
+a:visited {
+	color: brown;
+}
+
+p:first-child {
+	color: blueviolet;
+}
+
+p:first-of-type {
+	background-color: yellow;
+}
+
+li:nth-child(3n+4) {
+	border: solid orange;
+}
+
+#hello>p::before {
+	content: 'This is CSS ka content';
+	width: 200px;
+	height: 30px;
+	background-color: violet;
+}
+
+li::after {
+	content: '.';
+	width: 10px;
+	height: 10px;
+	background-color: tomato;
+}
+
+li::marker {
+	font-weight: bold;
+}
+
+a[title] {
+	border: solid 5px #0000ff;
+}
+
+*[title*="Lorem ipsum"] {
+	border-radius: 20px;
+	background-color: rgba(255, 0, 150);
+}
+
+a[href^="http"][href$=".com"]::after {
+	content: url(https://upload.wikimedia.org/wikipedia/commons/6/64/Icon_External_Link.png);
+	overflow: hidden;
+}
