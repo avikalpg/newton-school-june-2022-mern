@@ -1,0 +1,20 @@
+* Download 'git' software from 'git-scm' website
+* Git commands:
+	git init
+		Initializes a git repository
+	
+	git status
+		Shows the status of the current git repository 
+
+	git add [files]
+		stages the files on git 
+
+	git commit -m "some message"
+		creates a commit with the staged changes
+
+	git clone [address copied from GitHub website]
+		creates a clone of the repository in the current folder
+
+	git pull
+
+	git push
