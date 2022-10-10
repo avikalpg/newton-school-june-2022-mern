@@ -1,0 +1,14 @@
+1. Box model
+	- content
+	- padding
+	- border
+	- margin
+
+2. CSS Background
+	- color
+	- image
+	- repeat
+	- size 
+	- position
+	- attachment
+	- clip

@@ -1,0 +1,13 @@
+1. CSS Gradients
+	- linear-gradient
+		- colors (2, 3)
+		- direction
+			- angle
+		- gradient-start percentage
+		- repeating-linear-gradient
+	- radial-gradient
+		- colors (2, 3)
+		- closest-side, closest-corner, farthest-side, farthest-corner
+		- repeating-radial-gradient
+
+2. CSS Shadows ()

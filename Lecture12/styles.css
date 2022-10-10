@@ -1,0 +1,36 @@
+div.box-model {
+	width: 300px;
+	height: 250px;
+	box-sizing: content-box;
+	padding: 10px 30px 20px 2px;
+	border: 5px solid grey;
+	border-top: 20px solid yellow;
+	border-width: 15px;
+	border-style: groove;
+	border-color: aqua;
+	border-radius: 10px 50% 10px 20%;
+	/* margin-left: 30px;
+	margin-top: 10px;
+	margin-right: 0px;
+	margin-bottom: 40px; */
+	margin: 10px 30px;
+}
+
+div.background {
+	width: 400px;
+	height: 500px;
+	border: 20px dotted brown;
+	padding: 10px;
+	background-color: greenyellow;
+	background-image: url("https://th.bing.com/th/id/R.1c09326fa5c3d6df282e23271a428df1?rik=TFBvC3IlbGkP4Q&riu=http%3a%2f%2fwww.youngerman-art.com%2fuploads%2f5%2f9%2f1%2f8%2f5918323%2f__6786063.jpg%3f150&ehk=tWnKVRA5rZTFoEocRyG8WWSdYiFcQhNfwwPrfYc4hfo%3d&risl=&pid=ImgRaw&r=0");
+	background-repeat: no-repeat;
+	/* background-size: cover; */
+	background-position: center;
+	background-clip: padding-box;
+}
+
+body {
+	background-image: url("https://th.bing.com/th/id/R.61aab70af88c801eb5c61d7426fa4c93?rik=VbNQhfndYRY4Gg&riu=http%3a%2f%2fwww.thekidzpage.com%2ffreekidsclipart%2fholidays%2fchristmas%2fsantamessage-3.gif&ehk=XTHM5twSwts0KWuxbTx1mMw7dWwjwXtWaaPXaiGDCf4%3d&risl=&pid=ImgRaw&r=0");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
