@@ -7,7 +7,11 @@
 		- repeating-linear-gradient
 	- radial-gradient
 		- colors (2, 3)
-		- closest-side, closest-corner, farthest-side, farthest-corner
+		- closest-side, closest-corner, farthest-side, farthest-corner  -- NEEDS TO BE DISCUSSED AGAIN
 		- repeating-radial-gradient
 
 2. CSS Shadows ()
+	- text-shadow: right down blur color;
+		- multiple Shadows
+	- box-shadow: right down blur color
+		- button hover example

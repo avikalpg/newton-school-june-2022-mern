@@ -1,0 +1,45 @@
+#gradients-div {
+	width: 300px;
+	height: 300px;
+	border-radius: 50%;
+	border: solid 1px black;
+	margin: 50px auto;
+
+	/* gradients */
+	/* background-image: linear-gradient(90deg, #ff0000 10%, green 40%, blue 60%, #ffff00 70%); */
+	/* background-image: repeating-linear-gradient(90deg, #ff0000 10%, #ffff00 35%); */
+	background-image: radial-gradient(farthest-corner at 100px 100px, red, yellow);
+	/* background-image: repeating-radial-gradient(red 20%, yellow 40%); */
+}
+
+#shadow-h1 {
+	font-size: 50px;
+	text-align: center;
+	color: tomato;
+
+	/* text-shadow: 10px 5px 15px grey; */
+	text-shadow: 1px 0 0 brown, -1px 0 0 brown, 0 1px 0 brown, 0 -1px 0 brown;
+}
+
+#shadow-div {
+	width: 300px;
+	height: 300px;
+	border: solid 1px black;
+	margin: 20px auto;
+
+	box-shadow: 10px 20px 10px lime, -10px -20px 0px red;
+}
+
+button {
+	margin: 20px;
+	padding: 15px 20px;
+	font-size: large;
+	border-radius: 15px;
+
+	background-image: linear-gradient(#5555ff, #a0a0ff);
+	box-shadow: 2px 1px 2px grey;
+}
+
+button:hover {
+	box-shadow: 5px 2px 2px gray;
+}
