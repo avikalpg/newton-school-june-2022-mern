@@ -1,0 +1,90 @@
+p {
+	width: 300px;
+	background-color: aqua;
+	animation-name: alfred;
+	animation-duration: 4s;
+}
+
+#lorem-1 {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+#hand-lorem-2 {
+	word-wrap: break-word;
+}
+
+#lorem-2 {
+	word-break: break-all;
+}
+
+#span-in-p {
+	writing-mode: vertical-lr;
+}
+
+#lorem-3 {
+	text-align: justify;
+	text-justify: inter-cluster;
+}
+
+#div-table {
+	width: 100px;
+	height: 55px;
+	overflow: hidden;
+}
+
+@keyframes alfred {
+	from {
+		left: 0px;
+		background-color: greenyellow;
+	}
+
+	to {
+		left: 300px;
+		background-color: blue;
+	}
+}
+
+#anim-div {
+	width: 100px;
+	height: 100px;
+	position: relative;
+	border: solid 2px black;
+	text-align: center;
+	padding: 40px;
+	box-sizing: border-box;
+	margin-bottom: 250px;
+
+	animation-name: alfred;
+	/* animation-name: left-right-bottom-top; */
+	animation-duration: 3s;
+}
+
+@keyframes left-right-bottom-top {
+	0% {
+		left: 0px;
+		top: 0px;
+	}
+
+	25% {
+		left: 250px;
+		top: 0px;
+		background-color: aqua;
+	}
+
+	50% {
+		left: 250px;
+		top: 250px;
+	}
+
+	75% {
+		left: 0px;
+		top: 250px;
+	}
+
+	100% {
+		left: 0px;
+		top: 0px;
+	}
+}
