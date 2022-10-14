@@ -1,0 +1,45 @@
+@keyframes color-change {
+	0% {
+		background-color: #ffffff;
+		left: 0px;
+	}
+
+	10% {
+		background-color: #ffff00;
+	}
+
+	70% {
+		background-color: #ff0000;
+	}
+
+	to {
+		background-color: #000000;
+		left: 100px;
+	}
+}
+
+#container {
+	width: 500px;
+	border: dotted 4px brown;
+	position: absolute;
+	top: 300px;
+	left: 100px;
+}
+
+#anim-div {
+	width: 20vw;
+	height: 20vh;
+	border: solid 10px brown;
+	margin: 20px auto;
+	background-color: greenyellow;
+	position: relative;
+
+	animation-name: color-change;
+	animation-duration: 2s;
+	animation-delay: 2s;
+	animation-fill-mode: both;
+	animation-iteration-count: infinite;
+	animation-direction: alternate-reverse;
+	animation-timing-function: ease-out;
+	animation-play-state: running;
+}

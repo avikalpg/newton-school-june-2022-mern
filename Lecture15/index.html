@@ -1,0 +1,26 @@
+<html>
+
+<head>
+	<title>Animations and Responsiveness</title>
+	<link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+	<div id="container">
+		<div id="anim-div"></div>
+		<button onclick="pause()">Pause</button>
+		<button onclick="play()">Play</button>
+	</div>
+	<script>
+		function pause() {
+			console.log("Pause");
+			document.getElementById("anim-div").style.animationPlayState = "paused";
+		}
+		function play() {
+			console.log("Play");
+			document.getElementById("anim-div").style.animationPlayState = "running";
+		}
+	</script>
+</body>
+
+</html>
