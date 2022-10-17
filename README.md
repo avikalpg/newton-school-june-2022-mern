@@ -24,6 +24,9 @@ But please try your best to understand the concepts in English itself. If I expl
 2. [Lecture 10: CSS pseudo-classes and pseudo-elements](Lecture10/)
 2. [Lecture 12: Box model and CSS Background](Lecture12/)
 2. [Lecture 13: CSS Gradients and Shadows](Lecture13/)
+2. [Lecture 14: CSS Text-effect & introduction to animations](Lecture14/)
+2. [Lecture 15: CSS Animations](Lecture15/)
+2. [Lecture 16: Responsive CSS: Introduction, Media queries and Flexbox](Lecture16/)
 
 ## Additional Resources
 

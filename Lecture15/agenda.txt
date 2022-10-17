@@ -11,10 +11,3 @@ Homework:
 	Apart from these, the most relevant others are `flexbox` and `grid`. 
 	Here is the link to the documentation: [CSS Display](https://developer.mozilla.org/en-US/docs/Web/CSS/display)
 
-2. Responsiveness
-	- Flexbox
-		- flex-direction 
-		- flex-wrap
-		- flex-flow
-		- justify-content 
-		- align-content 

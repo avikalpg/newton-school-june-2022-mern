@@ -1,0 +1,24 @@
+1. Responsiveness
+	- Media Queries
+		- add the meta tag (name="viewport" and content="width: device-width")
+		- screen, print, all
+		- max-width, min-width 
+		- orientation
+		- ordering the CSS
+		
+	- Flexbox
+		- Container
+			- flex-direction 
+			- flex-wrap
+			- flex-flow
+			- justify-content :: flex-start, center, flex-end
+			- align-content 
+			- justify-items 
+			- align-items
+		- Items 
+			- order 
+			- flex-grow
+			- flex-shrink
+			- flex-basis 
+			- flex
+			- align-self
